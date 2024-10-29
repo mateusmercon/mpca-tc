@@ -24,4 +24,3 @@ def convertNumber(number: String, fromBase: Int, toBase: Int): String =
   println(convertNumber("123", 10, 8))
   println(convertNumber("1C7", 20, 12))
   println(convertNumber("15", 10, 16))
-
