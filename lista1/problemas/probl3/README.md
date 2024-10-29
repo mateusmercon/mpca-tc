@@ -1,8 +1,27 @@
-## sbt project compiled with Scala 3
+# Lista 1 -- Teoria da Computação / Linguagens Formais e Autômatos -- 2024/2
 
-### Usage
+**Introdução à Teoria da Computação & Fundamentos Matemáticos**  
+**Autor:** Mateus Neves Merçon  
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+## Problema 3
+Este problema exige a implementação de uma função que verifica se um número é perfeito, ou seja, o número é igual à soma de seus divisores próprios, excluindo ele mesmo.
 
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
+## Solução
+A função `isPerfectNumber` calcula a soma dos divisores próprios de um número:
+- Filtra os divisores próprios.
+- Verifica se a soma desses divisores é igual ao número para determinar se ele é perfeito.
+
+## Exemplo de Execução
+Para executar a função no prompt do Scala, utilize, por exemplo:
+
+```scala
+isPerfectNumber(6)
+isPerfectNumber(28)
+isPerfectNumber(12)
+isPerfectNumber(-5) 
+```
+
+Para executar usando o SBT use:
+```bash
+sbt run
+```
